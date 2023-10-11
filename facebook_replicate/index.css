@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+    margin: ;
+    padding: ;
+}
+body{
+    background-color: rgb(235, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: 10%;
+    
+}
+#fblogo{
+    width: 25%;
+    margin-right: 25%;
+}
+.text{font-size: 20px;}
+fieldset{
+    border: none;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 50%;
+}
+.log{
+    font-size: 15px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 1%;
+    box-shadow: 0 0 2px 2px rgb(212, 203, 203);
+
+    border: thin solid rgb(155, 146, 146);
+}
+.login{
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 1%;
+    background-color: blue;
+    box-shadow: 0 0 2px 2px rgb(212, 203, 203);
+    color: white;
+    border: none;
+}
+.create{
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 1%;
+    border: none;
+    box-shadow: 0 0 1px 1px rgb(212, 203, 203);
+    background-color: rgb(28, 209, 28);
+    color: white;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+}
+footer #container2{
+    padding: 20px 100px 0 100px;
+    justify-content: space-evenly;
+    text-align: justify;
+}

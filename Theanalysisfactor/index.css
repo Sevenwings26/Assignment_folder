@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 3vh solid blue;
+    min-height: 30vh;
+}
+nav{
+    display: flex;
+}
+header nav div ul{
+    display: flex;
+}

@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5ee;
+}
+@font-face {
+    font-family: avenir;
+    src: url(./Fonts/AvenirLTStd-Book.otf);
+}
+header{
+    /* border: thin solid rgb(163, 35, 35); */
+    background-color: #f5f5ee;
+    min-height: 18vh;
+   width: 100%;  
+    /* font-family: roboto; */
+    /* font-size: 16px; */
+    padding: 26px 0px;
+}
+header nav{
+    /* background-color: inherit; */
+    max-width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* margin-top: 20px; */
+    align-items: center;
+}
+
+#content1{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+#content2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+#content2 a{
+    text-decoration: none;
+}
+.apply{
+    font-size: 20px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+}
+ul{
+    /* display: inline-block; */
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    gap: 14px;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+ul li ul.dropdown li{
+    display: block;
+    padding: 15px ;
+    line-height: 2;
+    justify-self: first baseline;
+}
+ul li ul.dropdown{
+    /* width: 250%; */
+    position: absolute;
+    /* left: -9px; */
+    z-index: 2;
+    display: none;
+    background-color: white;
+    text-align: start;
+    /* line-height: 2; */
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 0 rgb(235, 233, 233);
+}
+ul li a:hover{
+    color: blue;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+#w{
+    width: 90%;
+}
+#w2{
+    width: 170%;
+    /* left: -5px; */
+}
+#w3{
+    width: 200%;
+}
+#w4{
+    width: 250%;
+}
+#w5{
+    width: 190%;
+}
+
+ /* Body style */
+#ain{
+    position: relative;
+    height: 76.7vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+.why{
+    font-size: 60px;
+}
+.ycom{
+    color: #fb651e;
+}
+.we_give{
+    font-size: 24px;
+}
+.applybtn{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #fda942;
+    align-items: center;
+}
+
+.applybtn a{
+    padding: 8px 32px;
+    text-align: center;
+    margin: 20px 0 0;
+    margin-top: 22px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.funded{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #f5f5ee;
+    width: 210px;
+    height: 140px;
+    top: 7rem;
+    right: 38rem;
+    box-shadow: 2px 3px 5px 3px #50504a86;
+}
+.fundedin{
+    /* padding: 12px 0px; */
+    margin: 25px auto;
+    width: 130px;
+    height: 85px;
+    /* background-color: white; */
+}
+div .funded h2{
+    margin-left: 20px;
+}
+
+.funded2{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #f5f5ee;
+    width: 210px;
+    height: 140px;
+    top: 11rem;
+    /* right: 10rem; */
+    box-shadow: 2px 3px 5px 3px #50504a86;
+
+    
+}
+
+.fundedin2{
+    /* padding: 12px 0px; */
+    margin: 25px auto;
+    width: 150px;
+    height: 85px;
+    /* background-color: white; */
+}
+div .funded h2{
+    margin-left: 20px;
+}
+
+.gridp{
+    border: thick solid red;
+            min-height: 60vh;
+            display: grid;
+    grid-template-columns: repeat(3, 1fr); /* it is used in repeating a particular fraction */
+}

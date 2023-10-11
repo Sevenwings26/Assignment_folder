@@ -1,0 +1,46 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+}
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+}
+#mainh{
+    display: flex;
+}
+#logo{
+    display: flex;
+    padding: 2%;
+}
+#bhead{
+    font-size: 3.5em;
+    font-family: "quicksand, san-serif";
+    color:white;
+    border: 1px solid white;
+    width: 70px;
+    text-align: center;
+}
+#fonts{
+    color: white;
+    font-family: "quicksand, san-serif";
+    font-size: 3.5em;
+    padding-left: 5px;    
+}
+#sources{
+    margin: auto;
+}
+#google{
+    border: 2px solid rgb(124, 14, 14);
+    width: 5%;}
+/* Header styling ends here */
+.font1{
+    font-family: 'Courier New', Courier, monospace;
+}
+ol{
+    list-style-type: lower-roman;
+}
+

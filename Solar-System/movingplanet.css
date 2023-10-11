@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title{
+    height: 13vh;
+    width: 45%;
+    border: thick solid rgb(83, 71, 71);
+    margin: 2rem;
+}
+h1{
+    color: rgb(83, 71,71);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+   /* Working on the solar bodies */
+.container{
+    height: 200vh;
+    background-image:url(./images/universe.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+}
+.cir-container{
+    position: absolute;
+    margin-top: 2rem;
+    height: 150vh;
+}
+.circle-neptune{
+    height: 127vh;
+    width: 127vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 0rem;
+     left: 17.8rem;
+
+     animation-name: nept;
+     animation-iteration-count: infinte;
+     animation-duration: none;
+}
+
+@keyframes nept{
+    0%{
+        transform:rotate(-360deg);
+    }
+}
+
+.neptune{
+    position: absolute;
+    z-index: 1;
+    top: 34rem;
+    leftt: -6rem;
+}
+.circle2{
+    height: 115vh;
+    width: 115vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 2rem;
+     left: 20.2rem;
+}
+.circle3{
+    height: 103vh;
+    width: 103vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 4.5rem;
+     left: 22.5rem;
+}
+.circle4{
+    height: 90vh;
+    width: 90vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 7rem;
+     left: 25rem;
+}
+.circle5{
+    height: 75vh;
+    width: 75vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 10rem;
+     left: 28rem;
+}
+.circle-venus{
+    height: 60vh;
+    width: 60vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 13rem;
+     left: 31rem;
+
+     animation-name: venus_r;
+    animation-duration: 3s;
+    /* animation-direction: normal; */
+    animation-iteration-count: infinite;
+}
+@keyframes venus_r{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+
+.venus{
+    /* width: 5rem; */
+    /* height: 5rem; */
+    position: absolute;
+    z-index: 1;
+    left: -1.7rem;
+    top: 10rem;
+}
+.circle-mercury{
+    height: 45vh;
+    width: 45vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+    z-index: 999;
+     top: 16rem;
+     left: 34rem;
+
+    animation-name: mercury-r;
+    animation-duration: 3s;
+    /* animation-direction: normal; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes mercury-r{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+.mercury{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 2rem;
+
+    /* animation-name: merc;
+    animation-duration: 1ms;
+            animation-duration: 2ms;
+            animation-iteration-count: infinite; */
+ }
+
+
+.circle8{
+    height: 25vh;
+    width: 25vh;
+    border: 1px solid white;
+     border-radius: 100%;
+    position: absolute;
+     top: 20rem;
+     left: 38rem;
+    align-items: center;
+}
+
+
+ /* Object Styling */
+ .Sun{
+    margin: 1rem;
+ }
+
+ 

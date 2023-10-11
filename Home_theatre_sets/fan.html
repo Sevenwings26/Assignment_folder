@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standing Fan</title>
+    <style>
+        h1{
+            font-size: 80px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            margin: 20px auto;
+            margin-left: 3rem; 
+        }
+        #fanbox{
+            position: relative;
+            width: 60%;
+            min-height: 79vh;
+            border: 2px double red;
+            margin: 8px auto;
+        }
+        .fan-circle{
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border: 5px solid black;
+            border-radius: 100%;
+            margin: auto;
+        }
+        .dot{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border: 3px solid coral;
+            border-radius: 100%;
+            margin: 65px ;
+            background-color: coral;
+            /* align-self: center; */
+        }
+        .stand{
+            width: 12px;
+            height: 35vh;
+            background: black;
+            margin: auto;
+        }
+        .bottom{
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            border-radius: 90%;
+            margin: auto;
+        }
+        .blade{
+            position: absolute;
+            width: 137px;
+            height: 15px;
+            border: 5px solid black;
+            border-radius: 70%;
+            margin: auto;
+            align-self: center;
+            top: 3.9rem;
+            left: 0.1rem;
+            
+            animation-name: blade_r;
+            animation-iteration-count: infinite;
+            animation-duration: 2ms;
+        }
+        @keyframes blade_r{
+            0%{
+                transform: rotate(-360deg);
+            }
+        }
+
+        .blade2{
+            position: absolute;
+            width: 137px;
+            height: 15px;
+            border: 5px solid black;
+            border-radius: 70%;
+            margin: auto;
+            align-self: center;
+            top: 3.9rem;
+            left: 0.1rem;
+            
+            animation-name: blade2_r;
+            animation-duration: 2ms;
+            animation-iteration-count: infinite;
+        }
+        @keyframes blade2_r{
+            0%{
+                transform: rotate(-180deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>The Standing Fan</h1>
+    </div>
+    <div id="fanbox">
+        <div class="fan-circle">
+            <div class="blade"></div>
+            <div class="blade2"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="stand"></div>
+        <div class="bottom"></div>
+    </div>
+</body>
+</html>

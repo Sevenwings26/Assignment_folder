@@ -1,0 +1,46 @@
+#outbox{
+    margin: auto;
+    align-items: center;
+}
+#box{
+    display: flex;
+    /* flex-direction: row; */
+    align-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 105vh;
+    width: 170vh;
+    border: 4px dotted red;
+    gap: 5em;
+    /* margin-right: 30px; */
+}
+.speaker1{height: 80vh;
+width: 8vh;
+border:3px solid gray;
+}
+.s2{
+    height: 16vh;
+    width: 7vh;
+border:3px solid gray;
+margin-top: 14em;
+}
+.tv{
+border:3px solid gray;
+    height: 50vh;
+    width: 75vh;
+    box-shadow: 0 0 0.2em 0.2em ;
+}
+.round{
+    height: 17px;
+    width: 17px;
+    border: 2px soild black;
+    border-radius: 100%;
+    margin: auto;
+}
+.deck{
+    border:3px solid gray;
+    height: 10vh;
+    width: 110vh;
+    margin-top: 20em;
+    margin-left: -7em;
+}

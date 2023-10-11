@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./blogsite.css">
+</head>
+<body>
+    <header>
+        <span id="Remote">Remote</span> 
+        <span id="school">school</span>
+        
+        <div>
+            <a href="./blogsite.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.scholarshipportal.com/" target="_blank">Scholarships</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./aboutus.html">About-us</a>
+        </div>
+    </header>
+    <center>
+    <form action="server.php" method="post">
+        <fieldset>
+            <legend>Register</legend>
+
+            <label for="name"> First name - </label>
+            <input id="name" "text" placeholder="Joe" required="required">
+        <br>
+        <br>
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <label for="name"> Second name - </label>
+            <input id="name" "text" placeholder="Optional">
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <br><br>
+            <label for="name"> Last name - </label>
+            <input id="name" "text" placeholder="Suberu" required="required"> 
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <br><br>
+            Date of Birth:<input type="date" required="required">
+        <br><br>
+            <label for="gend">Male </label>
+            <input id="gend" name="gend" type="radio">
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> <br>
+            <label for="gend">Female </label>
+            <input id="gend" name="gend" type="radio">
+        <br><br>
+           <label for="password">Password - </label>
+            <input id="password" type="password" placeholder="..........." required="required">
+        <br>
+        <br>
+            
+            <input type="checkbox"> <br>
+            Confirm password
+        <br>
+        <br>
+            <button><a href="">Sign-up</a></button>
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>

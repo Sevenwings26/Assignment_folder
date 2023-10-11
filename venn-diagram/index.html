@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENN DIAGRAM</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* [class^="circle"]{ */
+        .circle1{
+            border: thin solid black;
+            height: 60vh;
+            width: 60vh;
+            background-color: yellow;
+            border-radius: 100%;
+            margin: auto;
+           /* margin-top: 100px; */
+            position: relative;
+            /* z-index: 1; */
+            mix-blend-mode: screen;
+        }
+        .circle2{
+            border: thin solid black;
+            height: 60vh;
+            width: 60vh;
+            border-radius: 100%;
+            margin: auto;
+            background-color: red;
+            margin-top: 150px;
+            margin-left: 150px;
+            position: absolute;
+            /* z-index: 1; */
+            mix-blend-mode: screen;
+            bottom: -55%;
+
+        }
+        .circle3{
+            border: thin solid black;
+            height: 60vh;
+            width: 60vh;
+            background-color: green;
+            border-radius: 100%;
+            bottom: -60%;
+            margin: auto;
+            top: 150px;
+            left: -150px;
+            position: absolute;
+            /* z-index: 1; */
+            mix-blend-mode: screen;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="circle1">
+
+            <div class="circle2"></div>
+        <div class="circle3"></div>
+
+        </div>
+        
+    </div>
+
+</body>
+</html>

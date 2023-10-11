@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'avenir';
+}
+@font-face {
+    font-family: avenir;
+    src: url(./Fonts/AvenirLTStd-Book.otf);
+}
+header{
+    /* border: thin solid rgb(163, 35, 35); */
+    background-color: rgba(245, 245, 237, 0.507);
+    min-height: 18vh;
+   width: 100%;  
+    /* font-family: roboto; */
+    /* font-size: 16px; */
+    padding: 26px 0px;
+}
+header nav{
+    /* background-color: inherit; */
+    max-width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* margin-top: 20px; */
+    align-items: center;
+}
+
+#content1{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+#content2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.apply{
+    font-size: 20px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+}
+ul{
+    /* display: inline-block; */
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    gap: 14px;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-right: 1rem;
+}
+ul li ul.dropdown li{
+    display: block;
+    padding: 15px ;
+    line-height: 2;
+    justify-self: first baseline;
+}
+ul li ul.dropdown{
+    /* width: 250%; */
+    position: absolute;
+    /* left: -9px; */
+    z-index: 2;
+    display: none;
+    background-color: white;
+    text-align: start;
+    /* line-height: 2; */
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 0 rgb(235, 233, 233);
+}
+ul li a:hover{
+    color: blue;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+#w{
+    width: 90%;
+}
+#w2{
+    width: 170%;
+    /* left: -5px; */
+}
+#w3{
+    width: 200%;
+}
+#w4{
+    width: 250%;
+}
+#w5{
+    width: 190%;
+}
+
+/* Media query */
+@media(max-width:865px){
+    header nav{
+        width: 90%;
+    }
+}
+@media(max-width:639px){
+    ul{
+        display: none;
+    }
+    .logo-box{
+        display: block;
+        align-items: flex-start;
+    }
+    .apply{
+        display: none;
+    }
+    #content2{
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.content {
+  margin-top: 60px; /* Adjust margin to prevent content from being covered by the fixed header */
+  padding: 10px;
+}
+.section {
+  background-color: #e0e0e0;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Apply sticky behavior to the first section within the content */
+.section:first-child {
+  position: sticky;
+  top: 60px; /* Adjust top value to match the height of the fixed header */
+}
+    </style>
+</head>
+<body>
+    <header class="header">Header</header>
+  <main class="content">
+    <section class="section">Section 1</section>
+    <section class="section">Section 2</section>
+  </main>
+</body>
+</html>

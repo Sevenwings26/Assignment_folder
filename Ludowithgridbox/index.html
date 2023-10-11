@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo + Grid</title>
+    <style>
+        *{
+            font-size: 0;
+        }
+        body{
+            display: flex;
+            background-color: rgb(233, 222, 222);
+        }
+        h1{
+            font-size: 45px;
+        }
+        #big{
+            background-color: rgba(233, 222, 222, 0.39);
+            margin: auto;
+            border: thin solid rgba(170, 91, 77, 0.452);
+            min-height: 90vh;
+            width: 40%;
+            display:grid;
+            grid-template-columns:repeat(15, 1fr);
+        }
+        .box{
+            /* height: 50px; */
+            /* width: 50px; */
+        }
+        .box{
+            /* border: inherit; */
+            border: thin solid rgba(41, 34, 28, 0.445);
+            /* margin: 10px; */
+            font-size: 2rem;
+            text-align: center;
+        }
+        .box:nth-of-type(1){
+            grid-column: 1/7;
+            grid-row:1/7;
+        }
+        .box:nth-of-type(5){
+            grid-column: 10/16;
+            grid-row:1/7;
+        }
+        .box:nth-of-type(27){
+            grid-column: 7/10;
+            grid-row:7/10;
+        }
+        .box:nth-of-type(58){
+            grid-column: 1/7;
+            grid-row:10/16;
+        }
+        .box:nth-of-type(62){
+            grid-column: 10/16;
+            grid-row:10/16;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1> Ludo Game <br>Display:GRID</h1>
+    <div id="big">
+        <div class="box" style="background-image:linear-gradient(red,white);">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box" style="background: green;">5</div>
+        <div class="box">6</div>
+        <div class="box" style="background: green;">7</div>
+        <div class="box" style="background: green;">8</div>
+        <div class="box">9</div>
+        <div class="box" style="background: green;">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box" style="background: green;">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
+        <div class="box" style="background: green;">16</div>
+        <div class="box">17</div>
+        <div class="box">18</div>
+        <div class="box" style="background: green;">19</div>
+        <div class="box">20</div>
+        <div class="box">21</div>
+        <div class="box" style="background-color: red;">22</div>
+        <div class="box">23</div>
+        <div class="box">24</div>
+        <div class="box">25</div>
+        <div class="box">26</div>
+        <div class="box">27</div>
+        <div class="box">28</div>
+        <div class="box">29</div>
+        <div class="box">30</div>
+        <div class="box">31</div>
+        <div class="box">32</div>
+        <div class="box">33</div>
+        <div class="box">34</div>
+        <div class="box" style="background-color: red;">35</div>
+        <div class="box" style="background-color: red;">36</div>
+        <div class="box" style="background-color: red;">37</div>
+        <div class="box" style="background-color: red;">38</div>
+        <div class="box" style="background-color: red;">39</div>
+        <div class="box" style="background: yellow;">40</div>
+        <div class="box" style="background: yellow;">41</div>
+        <div class="box" style="background: yellow;">42</div>
+        <div class="box" style="background: yellow;">43</div>
+        <div class="box" style="background: yellow;">44</div>
+        <div class="box">45</div>
+        <div class="box">46</div>
+        <div class="box">47</div>
+        <div class="box">48</div>
+        <div class="box">49</div>
+        <div class="box">50</div>
+        <div class="box">51</div>
+        <div class="box">52</div>
+        <div class="box">53</div>
+        <div class="box">54</div>
+        <div class="box">55</div>
+        <div class="box" style="background: yellow;">56</div>
+        <div class="box">57</div>
+        <div class="box" style="background: blue;" >58</div>
+        <div class="box">59</div>
+        <div class="box" style="background: blue;">60</div>
+        <div class="box" >61</div>
+        <div class="box" style="background: yellow;">62</div>
+        <div class="box">63</div>
+        <div class="box" style="background: blue;">64</div>
+        <div class="box">65</div>
+        <div class="box">66</div>
+        <div class="box" style="background: blue;">67</div>
+        <div class="box">68</div>
+        <div class="box">69</div>
+        <div class="box" style="background: blue;">70</div>
+        <div class="box" >71</div>
+        <div class="box" style="background: blue;"style="background: blue;">72</div>
+        <div class="box" style="background: blue;">73</div>
+        <div class="box">74</div>
+        <div class="box">75</div>
+        <div class="box">76</div>
+        <div class="box">77</div>
+        <!-- <div class="box">78</div>
+        <div class="box">79</div>
+        <div class="box">80</div>
+        <div class="box">81</div>
+        <div class="box">82</div>
+        <div class="box">83</div> -->
+        <!-- <div class="box">84</div>
+        <div class="box">85</div>
+        <div class="box">86</div>
+        <div class="box">87</div>
+        <div class="box">88</div>
+        <div class="box">89</div>
+        <div class="box">90</div>
+        <div class="box">100</div>
+        <div class="box">101</div>
+        <div class="box">102</div>
+        <div class="box">103</div>
+        <div class="box">104</div>
+        <div class="box">105</div>
+        <div class="box">106</div>
+        <div class="box">107</div>
+        <div class="box">108</div>
+        <div class="box">109</div>
+        <div class="box">110</div>
+        <div class="box">111</div>
+        <div class="box">112</div>
+        <div class="box">113</div>
+        <div class="box">114</div>
+        <div class="box">115</div>
+        <div class="box">116</div>
+        <div class="box">117</div>
+        <div class="box">118</div>
+        <div class="box">119</div>
+        <div class="box">120</div>
+        <div class="box">121</div>
+        <div class="box">122</div>
+        <div class="box">123</div>
+        <div class="box">124</div>
+        <div class="box">125</div>
+        <div class="box">126</div>
+        <div class="box">127</div>
+        <div class="box">128</div>
+        <div class="box">129</div>
+        <div class="box">130</div>
+        <div class="box">131</div>
+        <div class="box">132</div>
+        <div class="box">133</div>
+        <div class="box">134</div>
+        <div class="box">135</div>
+        <div class="box">136</div>
+        <div class="box">137</div>
+        <div class="box">138</div>
+        <div class="box">139</div>
+        <div class="box">140</div>
+        <div class="box">141</div>
+        <div class="box">142</div>
+        <div class="box">143</div>
+        <div class="box">144</div>
+        <div class="box">145</div>
+        <div class="box">146</div>
+        <div class="box">146</div>
+        <div class="box">147</div>
+        <div class="box">148</div>
+        <div class="box">149</div>
+        <div class="box">150</div>
+        <div class="box">151</div>
+        <div class="box">152</div>
+        <div class="box">153</div>
+        <div class="box">154</div>
+        <div class="box">155</div>
+        <div class="box">156</div>
+        <div class="box">157</div>
+        <div class="box">158</div>
+        <div class="box">159</div>
+        <div class="box">160</div>
+        <div class="box">161</div>
+        <div class="box">162</div>
+        <div class="box">163</div>
+        <div class="box">164</div>
+        <div class="box">165</div>
+        <div class="box">166</div>
+        <div class="box">167</div> -->
+
+
+    </div>
+</body>
+</html>
